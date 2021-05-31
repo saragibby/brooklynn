@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Airtable from "airtable";
 
+console.log("RSVP FORM:::", process.env)
+
 var base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
   "appwdpz8rqxw74Oxy"
 );
