@@ -10,7 +10,7 @@ const RsvpForm = () => {
   const [email, setEmail] = useState("");
   const [numGuests, setNumGuests] = useState("");
   const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(true);
+  const [submitted, setSubmitted] = useState(false);
 
   const saveRsvp = () => {
     base("Table 1").create(

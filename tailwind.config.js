@@ -12,6 +12,9 @@ module.exports = {
       },
       minWidth: {
         '96': '24rem'
+      },
+      gridAutoRows: {
+        '14': '14vw'
       }
     },
   },

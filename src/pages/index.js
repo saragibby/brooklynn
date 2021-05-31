@@ -5,6 +5,7 @@ import BannerSvg from "../components/bannerSvg";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Map from "../components/map";
+import Gallery from "../components/gallery"
 
 const IndexPage = () => {
   const [showRsvpForm, setShowRsvpForm] = useState(false);
@@ -54,6 +55,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
+      <Gallery />
     </Layout>
   );
 };
