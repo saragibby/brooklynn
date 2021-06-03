@@ -36,20 +36,20 @@ const IndexPage = () => {
           <h1 className="absolute text-5xl pt-5">Brooklynn Gibbons</h1>
         </div>
       </div>
-      <div id="celebrate" className="p-12">
-        <div className="bg-yellow-50 rounded-xl shadow-md p-12 flex">
-          <div className="min-w-96">
-            <h3 className="text-5xl pb-5">Let's Celebrate</h3>
-            <h3 className="text-2xl pb-4">Brooklynn's Graduation Party</h3>
+      <div id="celebrate" className="p-4 lg:p-12">
+        <div className="bg-yellow-50 rounded-xl shadow-md p-4 flex flex-col lg:flex-row lg:p-12">
+          <div className="w-full flex lg:flex-none flex-col items-center lg:items-start lg:w-auto">
+            <h3 className="text-4xl lg:text-5xl pb-5">Let's Celebrate</h3>
+            <h3 className="text-xl lg:text-2xl pb-4">Brooklynn's Graduation Party</h3>
             <p>July 31, 2021 | 2:00 PM – 6:00 PM</p>
-            <p>18926 Burberry Dr, Macomb, MI 48042, USA</p>
+            <p className="text-sm lg:text-base">18926 Burberry Dr, Macomb, MI 48042, USA</p>
             <div className="pt-6">
               <button className="bg-gray-500 hover:bg-gray-800 text-white hover:text-gold font-bold py-3 px-8 rounded" onClick={() => setShowRsvpForm(!showRsvpForm)}>
                 {showRsvpForm ? "Show Map" : "RSVP" }
               </button>
             </div>
           </div>
-          <div className="pl-8 w-full h-full">
+          <div className="lg:pl-12 w-full h-full pt-12 lg:pt-0">
             {!showRsvpForm && <Map />}
             {showRsvpForm && <RsvpForm />}
           </div>
