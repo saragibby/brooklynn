@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^3.6.0",
     "gatsby-source-filesystem": "^3.6.0",
     "gatsby-transformer-sharp": "^3.6.0",
-    "mapbox-gl": "^2.3.0",
+    "mapbox-gl": "^1.13.0",
     "postcss": "^8.2.6",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
