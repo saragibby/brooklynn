@@ -89,6 +89,10 @@ body {
     grid-row: span 2;
   }
 
+  .gatsby-image-wrapper {
+    height: 100%;
+  }
+
 /* article,
 aside,
 details,
